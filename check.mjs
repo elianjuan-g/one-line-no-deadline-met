@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 
 const expected =
-  "I missed the deadline because I was busy writing the apology for missing the deadline.";
+  "My excuse for missing the deadline took so long to write, it became the reason I missed it.";
 
 execFileSync("node", ["main.ts"], { stdio: "inherit" });
 
